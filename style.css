@@ -23,7 +23,7 @@
 }
 
 .logo{
-    background-image: url("amazonlogo.png");
+    background-image: url("images/amazonlogo.png");
     background-size:cover;
     background-repeat: no-repeat;
     height: 50px;
@@ -159,4 +159,24 @@
 .nav-cart{
     font-size: 0.85rem;
     font-weight: 700;
+}
+
+/* Panel */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 90%;
+    font-size: 0.85rem;
 }
