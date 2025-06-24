@@ -209,3 +209,69 @@
     color: #007185;
     text-decoration: none;
 }
+
+/* Shopping Section */
+
+.shop{
+    
+    background-image: linear-gradient(rgb(255, 106, 20), white
+    );
+
+}
+
+.shopping-sec1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+
+}
+
+.box-img{
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+}
+
+
+.img4{
+    height: 125px;
+    width: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1rem;
+   
+
+  
+} 
+
+.box-4img{
+    display:flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.box-4img p{
+    color: black;
+}
